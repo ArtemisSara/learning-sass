@@ -6,6 +6,11 @@ body {
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;;
 }
 
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
 .cta-container {
   margin: 1rem auto;
   padding: 0 1rem;
@@ -31,6 +36,43 @@ body {
   max-width: 300px;
 }
 
+.cta a, .cta a:visited, .cta a:hover, cta a:focus {
+  color: #2D5461;
+  text-decoration: none;
+}
+
+a.fancy-link {
+  color: #3A612D;
+}
+
+a.fancy-link:visited {
+  color: #D2F0FA;
+}
+
+a.fancy-link:hover, a.fancy-link:focus {
+  text-shadow: gray 3px 3px 8px;
+}
+
+section:first-of-type h2 {
+  font-weight: 900;
+  text-align: center;
+}
+
+p.big-cap:first-letter {
+  font-size: 200%;
+}
+
+input[type="submit"] {
+  background-color: #3A612D;
+  color: white;
+  border-radius: 50px;
+}
+
+.highlighted {
+  background-color: #D2F0FA;
+  color: white;
+  border-radius: 50px;
+}
 footer {
   background-color: #D2F0FA;
   padding: 1rem;
